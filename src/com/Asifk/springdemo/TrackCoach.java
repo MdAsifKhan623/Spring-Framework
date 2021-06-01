@@ -5,6 +5,10 @@ public class TrackCoach implements Coach {
 	//define the private field for the dependency
 	public FortuneService fortuneService;
 	
+	public TrackCoach() {
+		
+	}
+	
 	public TrackCoach(FortuneService fortuneService) {
 		super();
 		this.fortuneService = fortuneService;

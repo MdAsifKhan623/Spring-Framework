@@ -14,6 +14,7 @@ public class SpringHelloApp {
 		
 		Coach trackCoach =context.getBean("myTrackCoach",Coach.class);
 		
+		
 		System.out.println(trackCoach.getDailyFortunes());
 		//Call the new method of the FortuneService dependency
 		System.out.println(ch.getDailyFortunes());

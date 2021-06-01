@@ -5,6 +5,9 @@ public class BaseballCoach implements Coach {
 	//define a private field for the dependency
 	private FortuneService fortuneService;
 	
+	public BaseballCoach() {
+		
+	}
 	//define a constructor
 	public BaseballCoach(FortuneService theFortuneService) {
 		fortuneService = theFortuneService;

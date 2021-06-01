@@ -21,15 +21,19 @@
     	<constructor-arg ref="myFortune"/>
     </bean>
     
+    <!-- TrackCoach Bean -->
  	<bean id="myTrackCoach"
  		class="com.Asifk.springdemo.TrackCoach">
  		<constructor-arg ref="myFortune" />
  	</bean>
  	
-    
-    
-    
-    
+ 	<!-- CricketCoach Bean -->
+ 	
+ 	<bean id="myCricketCoach"
+ 		class="com.Asifk.springdemo.CricketCoach">
+ 		<property name="fortuneService" ref="myFortune" />
+ 	</bean>
+ 	
 </beans>
 
 
